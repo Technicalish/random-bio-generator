@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, main {
+  min-height: 100vh;
+}
+.profile-l-avatar {
+  width: 100%;
+  filter: grayscale(100%);
+}
+.profile-name {
+  padding: 0.5rem 0;
+  text-align: center;
+  text-transform: capitalize;
+  font: normal normal 750 2rem/2rem Fasthand, cursive;
+}
+h2 {
+  margin: 0 0 0 1rem;
+}
+.about-me p, .my-interests ul, .icons {
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  background: hsl(0, 0%, 95%);
+  border-radius: 1rem;
+}
+.my-interests ul {
+  padding: 1rem 1rem 1rem 2rem;
+}
+li {
+  text-transform: capitalize;
+}
+.icons {
+  display: flex;
+  column-gap: 0.5rem;
+}
+.icons img {
+  width: 2rem;
+}
+footer {
+  padding: 0.5rem 0;
+  text-align: center;
+  background: black;
+  color: white;
+  font: normal normal 900 1.25rem/1.25rem sans-serif;
+}
