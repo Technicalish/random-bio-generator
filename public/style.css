@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 body, main {
+  margin: auto;
+  max-width: 35rem;
   min-height: 100vh;
 }
 .profile-l-avatar {
