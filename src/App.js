@@ -12,7 +12,7 @@ function App() {
       <Main name={chance.name()} aboutme={chance.paragraph()} domain={ chance.domain({ tld: "com" }) } country={chance.country().toLowerCase()}/>
       <Footer/>
       </>
-      </BrowserRouter>
+    </BrowserRouter>
   )
 }
 export default App;
