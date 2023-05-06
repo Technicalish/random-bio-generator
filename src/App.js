@@ -1,11 +1,11 @@
 import Main from "./Main";
 import Footer from "./Footer";
 import Chance from "chance";
-import { useEffect } from 'react';
+import { useEffect } from "react";
 var chance = new Chance();
 function App() {
   useEffect(() => {
-    console.log(window.location)
+    new URLSearchParams(window.location.search).has("author") && alert("Mohd Ibrahim Irfan Shah")
   }, []);
 
   return (
