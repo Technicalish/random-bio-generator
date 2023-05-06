@@ -2,11 +2,12 @@ import Main from "./Main";
 import Footer from "./Footer";
 import Chance from "chance";
 import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 var chance = new Chance();
 function App() {
   var location = useLocation();
 
-  React.useEffect(() => {
+  useEffect(() => {
     console.log(location)
   }, [location]);
 
